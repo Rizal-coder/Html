@@ -1,0 +1,47 @@
+table {
+  margin: 100px auto 0;
+  font-family: arial;
+}
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table tr td {
+  padding: 20px 40px;
+}
+table tr:nth-child(2) td:nth-child(2) {
+  font-size: 50px;
+  font-family:arial;
+  font-weight:bold;
+  text-align:center;
+  background-color: lightgreen;
+}
+table tr:nth-child(1) td:first-child,
+table tr:nth-child(1) td:last-child,
+table tr:nth-child(4) td:first-child,
+table tr:nth-child(4) td:last-child {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+table tr:nth-child(1) td:nth-child(2),
+table tr:nth-child(1) td:nth-child(3),
+table tr:nth-child(4) td:nth-child(2),
+table tr:nth-child(4) td:nth-child(3){
+  background-color: orange;
+  color: #000;
+  font-weight: bold;
+}
+table tr:nth-child(2) td:nth-child(1),
+table tr:nth-child(3) td:nth-child(2){
+  background-color: violet;
+  color: #000;
+  font-weight: bold;
+}
+
+table tr:nth-child(2) td:nth-child(3),
+table tr:nth-child(3) td:nth-child(1){
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+}
