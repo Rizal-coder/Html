@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic Forms</title>
+  <style>
+    table { font-family: arial, sans-serif; margin: 30px auto 0;}
+  </style>
+</head>
+<body>
+
+  <form action="" method="post">
+    <table border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <td><label for="inputText">Input Type Text </label></td>
+        <td> : <input type="text" id="inputText"></td>
+      </tr>
+      <tr>
+        <td><label for="inputPassword">Input Type Password </label></td>
+        <td> : <input type="password" id="inputPassword"></td>
+      </tr>
+      <tr>
+        <td>Input Type Radio</td>
+        <td>
+          <label>
+            <input type="radio" name="radioButton">
+            Radio 1
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="radioButton">
+            Radio 2
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>Input Type Checkbox</td>
+        <td>
+          <label>
+            <input type="checkbox">
+            Checkbox 1
+          </label>
+          <label>
+            <input type="checkbox">
+            Checkbox 2
+          </label>
+          <br>
+          <label>
+            <input type="checkbox">
+            Checkbox 3
+          </label>
+          <label>
+            <input type="checkbox">
+            Checkbox 4
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>Dropdown Select</td>
+        <td>
+          <select name="dropdown">
+            <option>Select 1</option>
+            <option>Select 2</option>
+            <option>Select 3</option>
+            <option>Select 4</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>TextArea</td>
+        <td>
+          <textarea name="pesan" rows="8" cols="40"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><button type="submit">Kirim!</button></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
